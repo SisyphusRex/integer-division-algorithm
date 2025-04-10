@@ -22,7 +22,7 @@ If n ≥ 0
   * while r ≥ d  
     * q = q + 1  
     * r = r - d  
- if n < 0  
+ If n < 0  
   * q = 0  
   * r = n  
   * while r < 0  
