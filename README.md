@@ -17,14 +17,14 @@ Input: n, and d > 0
 Output: q, r  
 
 If n ≥ 0  
-  q = 0  
-  r = n  
-  while r ≥ d  
-    q = q + 1  
-    r = r - d  
-if n < 0  
-  q = 0  
-  r = n  
-  while r < 0  
-    q = q - 1  
-    r = r + d  
+  * q = 0  
+  * r = n  
+  * while r ≥ d  
+    * q = q + 1  
+    * r = r - d  
+* if n < 0  
+  * q = 0  
+  * r = n  
+  * while r < 0  
+    * q = q - 1  
+    * r = r + d  
